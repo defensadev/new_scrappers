@@ -1,0 +1,14 @@
+{
+  "name": "new_scrappers",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "download": "^8.0.0",
+    "puppeteer": "^8.0.0"
+  },
+  "scripts": {
+    "deploy": "git add . && git commit -m 'Auto Deploy' && git push -u origin main"
+  }
+}
